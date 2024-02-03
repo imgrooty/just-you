@@ -148,7 +148,7 @@ h1:hover span:nth-child(1) {
   margin-right: 5px;
 }
 h1:hover span:nth-child(1):after {
-  content: "💖";
+  content: "clickme";
 }
 h1:hover span:nth-child(2) {
   margin-left: 30px;
