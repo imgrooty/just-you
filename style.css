@@ -148,10 +148,20 @@ h1 a {
   text-decoration: none;
   text-shadow: #330000,  0 0 5px #f6c94b;
   }
+  h1 a p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    transition: 0.2s linear;
+    font-size: 1rem;
+    color: #bffd15;
+    text-decoration: none;
+    text-shadow: #330000,  0 0 5px #f6c94b;
+    }
 
 h1:hover {
   color: #bffd15;
   text-shadow: 0 0 10px #637dfc, 0 0 20px #761818, 0 0 40px #41074e;
+  
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   h2,
