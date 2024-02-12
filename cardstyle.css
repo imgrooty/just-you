@@ -79,10 +79,11 @@ body {
 }
 
 .card:first-child p {
-  overflow: auto;
+  overflow: scroll;
   color: #fffbfb;
-  font-size: 0.5 rem;
+  font-size: 0.3 rem;
 }
+
 
 
 
