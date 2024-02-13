@@ -5,6 +5,8 @@
   height: 300px;
   display: flex;
   flex-direction: row;
+  justify-items: center;
+  justify-content: space-around;
   background-color: whitesmoke;
   -webkit-box-shadow: 1px 1px 12px #000;
   box-shadow: 1px 1px 12px #000;
@@ -21,12 +23,12 @@
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center; */
-  justify-content: center;
   color: #000;
 }
 
 .cover {
   top: 0;
+  padding: 50px;
   position: absolute;
   background-color: lightgray;
   width: 100%;
