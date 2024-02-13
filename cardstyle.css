@@ -44,7 +44,7 @@ overflow: hidden;
     display: block;
     text-wrap: no-wrap;
     overflow: hidden;
-  color: yellow;
+  color: black;
 animation: scroll 10s ease infinite alternate;
 } 
 
