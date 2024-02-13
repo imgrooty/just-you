@@ -106,7 +106,8 @@ display: none;
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-image: url(img2.png);
+  background-size: cover;
   color: black;
 }
 
