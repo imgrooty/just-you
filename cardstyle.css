@@ -94,7 +94,7 @@ body {
    -webkit-animation-timing-function:linear;
   width: 90%;
     display: block;
-    white-space: nowrap;
+
     overflow: hidden;
     text-overflow: ellipsis;
 }
