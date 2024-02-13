@@ -88,12 +88,12 @@ body {
 
 
 .card h2 {
-  color: #ff4136;
+  color: yellow;
   font-size: 1rem;
   text-align: center;
   margin-top: 0;
   padding-top: 1rem;
-  overflow: auto;
+  overflow: scroll;
 }
 
 .card p {
