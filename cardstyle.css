@@ -62,7 +62,7 @@ animation: scroll 10s ease infinite alternate;
 @keyframes scroll {
 0% {
 display: none;
-  margin-top: 801px;
+  margin-top: 501px;
    }
    100% {
      display: block;
