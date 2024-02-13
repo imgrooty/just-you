@@ -47,6 +47,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
   color: yellow;
+animation: scroll 10s ease infinite alternate;
 } 
 
 .card:hover span{
@@ -77,5 +78,15 @@ display: hidden;
     box-shadow: 10px 10px 20px rgba(255, 175, 2, 0.855);
   }
 
+}
+
+@keyframes scroll {
+   0% {
+      transform:translateY(0);
+display: hidden;
+   }
+   100% {
+      transform:translateY(-100%);
+   }
 }
 
