@@ -4,6 +4,7 @@
   width: 220px;
   height: 300px;
   display: flex;
+  flex-direction: row;
   background-color: whitesmoke;
   -webkit-box-shadow: 1px 1px 12px #000;
   box-shadow: 1px 1px 12px #000;
