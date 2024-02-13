@@ -76,7 +76,7 @@ body {
   background-clip: content-box;
   background-blend-mode: soft-light;
 }
-.card:first-child span{
+.card:first-child span:hover{
 -webkit-animation-play-state: paused;
   width: 90%;
     display: block;
@@ -86,7 +86,7 @@ body {
   color: yellow;
 } 
 
-.card:first-child span:hover{
+.card:first-child span{
   -webkit-animation-name: move;
    -webkit-animation-duration: 10s;
    -webkit-animation-iteration-count: infinite;
@@ -178,7 +178,6 @@ body {
   100% {
     translate: 300%;
     box-shadow: 10px 10px 20px rgba(255, 175, 2, 20);
-
   }
 
   #container {
