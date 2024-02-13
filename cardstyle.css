@@ -36,15 +36,14 @@ body {
   animation: glow 1s ease infinite alternate;
   background-image: url(img2.png);
   background-size: cover;
-  background-clip: content-box;
-  background-blend-mode: soft-light;
+overflow: hidden;
+  margin-left: 10px;
 }
 .card span{
   width: 90%;
     display: block;
     text-wrap: no-wrap;
     overflow: hidden;
-    text-overflow: ellipsis;
   color: yellow;
 animation: scroll 10s ease infinite alternate;
 } 
