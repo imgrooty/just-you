@@ -82,11 +82,19 @@ body {
    -webkit-animation-iteration-count: infinite;
    -webkit-animation-direction: up;
    -webkit-animation-timing-function:linear;
-  overflow: hidden;
+  width: 90%;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .card:first-child span{
 -webkit-animation-play-state: paused;
-  overflow: hidden;
+  width: 90%;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 } 
 
 @-webkit-keyframes move {
