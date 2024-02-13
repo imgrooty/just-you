@@ -75,15 +75,27 @@ body {
   background-size: cover;
   background-clip: content-box;
   /* background: #debfbf; */
+   -webkit-animation-name: move;
+   -webkit-animation-duration: 10s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-direction: up;
+   -webkit-animation-timing-function:linear;
+  
   background-blend-mode: soft-light;
 }
 
-.card:first-child p {
-  overflow: scroll;
-  color: #fffbfb;
-  font-size: 0.3 rem;
+.card:first-child:hover{
+-webkit-animation-play-state: paused;
 }
 
+@-webkit-keyframes move {
+   0% {
+      transform:translateY(0);
+   }
+   100% {
+      transform:translateY(-100%);
+   }
+}
 
 
 
