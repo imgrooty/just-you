@@ -27,7 +27,7 @@ body {
 }
 
 .card {
-  width: 50vh;
+  height: 50vh;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #1a242f;
   border-radius: 10px;
@@ -54,10 +54,6 @@ body {
    -webkit-animation-iteration-count: infinite;
    -webkit-animation-direction: up;
    -webkit-animation-timing-function:linear;
-  width: 90%;
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 
@@ -71,22 +67,6 @@ display: hidden;
    }
 }
 
-
-
-.card h2 {
-  color: yellow;
-  font-size: 1rem;
-  text-align: center;
-  margin-top: 0;
-  padding-top: 1rem;
-}
-
-.card p {
-  color: #fff;
-  font-size: 1.2rem;
-  text-align: center;
-  padding: 1rem;
-}
 
 .card::before,
 .card::after {
@@ -112,12 +92,6 @@ display: hidden;
   transform: translateZ(-2px);
 }
 
-.contain {
-  display: flex;
-  align-items: center;
-  align-content: space-around;
-  align-self: center;
-}
 
 @keyframes glow {
   0% {
