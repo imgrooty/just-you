@@ -80,7 +80,7 @@ body {
 -webkit-animation-play-state: paused;
   width: 90%;
     display: block;
-    white-space: nowrap;
+    text-wrap: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
   color: yellow;
