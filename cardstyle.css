@@ -46,7 +46,7 @@ overflow: hidden;
     text-wrap: no-wrap;
     overflow: hidden;
   color: black;
-animation: scroll 10s ease infinite alternate;
+animation: scroll 20s ease-in infinite alternate;
 } 
 
 @keyframes glow {
