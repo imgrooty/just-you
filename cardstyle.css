@@ -76,6 +76,16 @@ body {
   background-clip: content-box;
   background-blend-mode: soft-light;
 }
+.card:first-child span{
+-webkit-animation-play-state: paused;
+  width: 90%;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  color: yellow;
+} 
+
 .card:first-child span:hover{
   -webkit-animation-name: move;
    -webkit-animation-duration: 10s;
@@ -88,14 +98,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.card:first-child span{
--webkit-animation-play-state: paused;
-  width: 90%;
-    display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-} 
+
 
 @-webkit-keyframes move {
    0% {
