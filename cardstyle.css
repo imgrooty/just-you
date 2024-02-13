@@ -40,7 +40,6 @@ body {
   background-blend-mode: soft-light;
 }
 .card span{
--webkit-animation-play-state: paused;
   width: 90%;
     display: block;
     text-wrap: no-wrap;
@@ -52,11 +51,11 @@ animation: scroll 10s ease infinite alternate;
 
 @keyframes glow {
   0% {
-    box-shadow: 10px 10px 20px rgba(233, 14, 29, 0.696);
+    box-shadow: 10px 10px 10px 20px rgba(233, 14, 29, 0.696);
   }
 
   100% {
-    box-shadow: 10px 10px 20px rgba(255, 175, 2, 0.855);
+    box-shadow: 10px 10px 10px 20px rgba(255, 175, 2, 0.855);
   }
 
 }
@@ -65,9 +64,11 @@ animation: scroll 10s ease infinite alternate;
 0% {
       transform:translateY(100);
 display: hidden;
+  margin-top: 801px;
    }
    100% {
       transform:translateY(0%);
+     margin-top: 0px;
    }
 }
 
