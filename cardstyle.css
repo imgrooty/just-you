@@ -76,7 +76,7 @@ body {
   background-clip: content-box;
   background-blend-mode: soft-light;
 }
-.card:first-child h2:hover{
+.card:first-child span:hover{
   -webkit-animation-name: move;
    -webkit-animation-duration: 10s;
    -webkit-animation-iteration-count: infinite;
@@ -84,7 +84,7 @@ body {
    -webkit-animation-timing-function:linear;
   overflow: hidden;
 }
-.card:first-child h2{
+.card:first-child span{
 -webkit-animation-play-state: paused;
   overflow: hidden;
 } 
