@@ -48,7 +48,7 @@ body {
 .card:nth-child(2):hover {
   transform: rotateX(10deg) rotateY(-10deg);
   transform-origin: -bottom, right;
-  transform: translateX(400px);
+  transform: translateX(500px);
   transform: rotateX(75);
 
 }
