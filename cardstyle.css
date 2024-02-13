@@ -82,11 +82,11 @@ display: hidden;
 
 @keyframes scroll {
    0% {
-      transform:translateY(0);
+      transform:translateY(100);
 display: hidden;
    }
    100% {
-      transform:translateY(-100%);
+      transform:translateY(0%);
    }
 }
 
